@@ -10,12 +10,12 @@ class Producto {
   }
 }
 
-const producto1 = new Producto(1, "Blonde", "Santa Birra", 550, 22,"https://img.freepik.com/foto-gratis/vaso-cerveza-fria-fotografia-macro_53876-42355.jpg?w=1060&t=st=1660004699~exp=1660005299~hmac=2db6a6b3866498cfe0fe720e854b2e5463fb365bd9e07d0d55e1648ef822ba19 ")
-const producto2 = new Producto(2, "Double Honey", "Santa Birra", 450, 21,)
-const producto3 = new Producto(3, "Apa", "Santa Birra" , 350, 40,)
-const producto4 = new Producto(4, "Vera IPA", "Santa Birra" , 500, 10,"https://img.freepik.com/foto-gratis/vaso-cerveza-delante-fondo-borroso_23-2148098787.jpg?w=1060&t=st=1660004842~exp=1660005442~hmac=a5228437a19e270a8558f953d22f4aa56a1f501a95cf95e18f48c442c2a7e4dc")
-const producto5 = new Producto(5, "Scottish Ale", "Santa Birra" , 600, 40,"https://img.freepik.com/foto-gratis/pintas-macro-fotografia-cerveza-barril_53876-32257.jpg?w=996&t=st=1660004788~exp=1660005388~hmac=c15a9467c4cf17fcab2223465ec9581fdc87a757742d7c7ffd939fc2aa09fc35")
-const producto6 = new Producto(6, "Stout Cream", "Santa Birra" , 500, 5,)
+const producto1 = new Producto(1, "Blonde", "Santa Birra", 550, 22,"https://mail.google.com/mail/u/0?ui=2&ik=1972978d49&attid=0.6&permmsgid=msg-a:r-5393965382890051532&th=18282efb5b2f17c8&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-OZnm1Ay0BnqbCsA_0QBiyI9yRzGrH_wR5WEzhU7mv4pKDVdKthz7cqT5myH8UKhaFbPNIWrM013oW95AH3WUhgR2J4cnPj-TQV9owFB0aQS1O9cyyRtTUWF8&disp=emb&realattid=18282ec5981ead4e4f22")
+const producto2 = new Producto(2, "Double Honey", "Santa Birra", 450, 21,"https://mail.google.com/mail/u/0?ui=2&ik=1972978d49&attid=0.5&permmsgid=msg-a:r-5393965382890051532&th=18282efb5b2f17c8&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ8GE5YA0F6FocTsEQD1QVAi6Iv2hvKjYbpylTvKc_STEzBf0Ar2mN2wZ-KJxg_r5GwwTceUiU1wnEc9CWlrzz3xy6_lMnH2zegOfKbhPJyVK6aQ8bzweMtrzb0&disp=emb&realattid=18282ee5f62563850f6")
+const producto3 = new Producto(3, "Apa", "Santa Birra" , 350, 40,"https://mail.google.com/mail/u/0?ui=2&ik=1972978d49&attid=0.1&permmsgid=msg-a:r-5393965382890051532&th=18282efb5b2f17c8&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9DNqsI_rg-cHPAMSNYuHVzchlVmt-T7Q-2PLRdThItd5p1jrcKrgL0wtnBV5kCVjQUxrzHof2Uq0oHoE_NWN96y8IpO6-OSvcqZ2Aos5AWSFOfCUAKMjiCchY&disp=emb&realattid=18282eccf558d77290a3")
+const producto4 = new Producto(4, "Vera IPA", "Santa Birra" , 500, 10,"https://mail.google.com/mail/u/0?ui=2&ik=1972978d49&attid=0.2&permmsgid=msg-a:r-5393965382890051532&th=18282efb5b2f17c8&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ8OimGGeOVVp3OpUK6hTMEiBSnNkcWD4rmeVs788DgOJwuJbbQzwGT5ni5kxlsPlJA9SFWTL0e5VriuCIysXTDrMitG8sEuKTeghsnMwGsAHZjIkRkLLTR1q4M&disp=emb&realattid=18282edd8b77736baea5")
+const producto5 = new Producto(5, "Scottish Ale", "Santa Birra" , 600, 40,"https://mail.google.com/mail/u/0?ui=2&ik=1972978d49&attid=0.2&permmsgid=msg-a:r-5393965382890051532&th=18282efb5b2f17c8&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ8OimGGeOVVp3OpUK6hTMEiBSnNkcWD4rmeVs788DgOJwuJbbQzwGT5ni5kxlsPlJA9SFWTL0e5VriuCIysXTDrMitG8sEuKTeghsnMwGsAHZjIkRkLLTR1q4M&disp=emb&realattid=18282edd8b77736baea5")
+const producto6 = new Producto(6, "Stout Cream", "Santa Birra" , 500, 5,"https://mail.google.com/mail/u/0?ui=2&ik=1972978d49&attid=0.4&permmsgid=msg-a:r-5393965382890051532&th=18282efb5b2f17c8&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-a63UkbmyDWmS7l2Fnl1mmhObNXNti42foi4l_EUVOQ2CaV5WvXGZAWpmVFciSW3pejzxdDhSiNNUerYvkuFeCtaQn7fNX4wf7O9DSOgJ318LrktlXkge74Pg&disp=emb&realattid=18282ed5636234ae3d64")
 
 const productos = [producto1, producto2, producto3, producto4, producto5, producto6]
 
@@ -29,7 +29,7 @@ productos.forEach((productoArray) => {
           <p class="card-text">Marca: ${productoArray.marca}</p>
           <p class="card-text">Precio: $${productoArray.precio}</p>
           <p class="card-text">Stock: ${productoArray.stock}</p>
-          <img class="card-img-top" src="${productoArray.img}" alt="Card image cap">
+          <img class="card-img-top" src="${productoArray.img}">
   </div>
 </div>
   `

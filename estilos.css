@@ -62,8 +62,14 @@ h2{
     padding: 50px;
 }
 img {
-  width: 30px;
-  height: 30px;
-  float: right;
+  width: 40%;
+  height: 30%;
+  float: left;
+  margin-right: 50px;
+  border-radius: 5px;
 }
-
+.card {
+  text-align: center;
+  font-family: 'Arbutus';
+  font-size: 20px;
+}
