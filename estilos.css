@@ -8,10 +8,10 @@
 font-family: 'Finlandica', sans-serif;
 font-family: 'Stint Ultra Condensed', cursive;*/
 html,body{
-  width: 100%;
-  height: 100%;
-  padding: 5px;
+  margin: 0;
+  padding: 0;
   background-color: #300d16;
+  
 }
 header{  
   background-image: url("/assets/portada.jpg"); opacity: 80%;
@@ -25,7 +25,8 @@ header{
   color: #300d16;
 }
 h1{
-  text-shadow: 0 0 5px #f3eae8;
+  color: #f8c9cc;
+  text-shadow: 0 0 20px #300d16;
   font-family: 'Grenze Gotisch', cursive;  
   font-size: 80px;
 }
@@ -33,7 +34,7 @@ h1{
   width: 100%;
   margin: 0 auto;
   font-family: 'Grenze Gotisch';
-  font-size: 35px; 
+  font-size: 30px; 
   display: inline-block;
   background-color:#f8c9cc;
   color: #877677;
@@ -58,11 +59,18 @@ ul li {
       align-items: center;  
       float: left;
   }
+  .btn-success{
+    background-color: #f8c9cc;
+    color:#300d16;
+    border-radius: 5px;
+    padding: 8px;
+    font-family: 'Grenze Gotisch';
+  }
   #sec1{
     height: 80px;
     background-color:#f8c9cc;
     color: #300d16;
-    text-shadow: 0 0 5px #877677;
+    text-shadow: 0 0 5px #300d16;
     font-family: 'Grenze Gotisch';
     font-size: 40px; 
     text-align: center;
@@ -93,60 +101,66 @@ p{
 
 }
 .contenedor-tienda{
-  padding-top: 3%;
+  padding-top: 5%;
   display: flex;
-  width: 100%;
   height: auto;
   justify-content: space-around;
-  background-color: #f3eae8;
+  background-color: hwb(11 91% 5%);
   flex-wrap: wrap;
+ 
+}
+.contenedor-tienda img {
+  width: 300px;
+  height: 200px;
+  border: #300d16;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #877677 ;
+  object-fit: cover;
+  justify-content: center;
+  filter: brightness(70%);
+}
+.contenedor-tienda button {
+  background-color: #f8c9cc;
+  border-radius: 5px;
+  color:#300d16;
+  padding: 8px;
+  font-family: 'Finlandica', sans-serif;
+  font-size: 15px;
+  display: flex;
+  justify-content:space-around;
 }
 
 .card{
-
-  height: 500px;
-  width: 400px;
+  width: 200px;
+  height: 350px;
   margin: 20px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: center;
   font-family: 'Finlandica', sans-serif;
+
 }
-.src {
-  opacity: 50%;
-  height: 200px;
-  width: 200px;
-}
+
 h4{
   color: #300d16;
   font-family: 'Finlandica', sans-serif;
-  font-size: 35px;
+  font-size: 20px;
   text-align: center;
 }
 h3{
-  color: #f6a3ec;
+  color: #877677;
   font-family: 'Finlandica', sans-serif;
-  text-shadow: 0 0 5px #300d16;
   text-align: center;
-  font-size: 30px;
-}
-.card-precio{
   font-size: 25px;
-  color:#300d16;
 }
-.button {
-  background-color: #f8c9cc;
-  border-radius: 5px;
-  color:#300d16;
-  padding: 8px;
-  font-family: 'Grenze Gotisch';
-}
+
 #sec2{
+  padding: 10px;
   height: 80px;
   background-color:#f8c9cc;
   color: #300d16;
-  text-shadow: 0 0 5px #877677;
+  text-shadow: 0 0 5px #300d16;
   font-family: 'Grenze Gotisch';
   font-size: 40px; 
   text-align: center;
@@ -175,12 +189,28 @@ h3{
   font-family: 'Grenze Gotisch';
  
 }
+#contenedorCarrito{
+  color: #f3eae8;
+  text-shadow: 0 0 #300d16;
+}
+#producto.precio{
+  color: #f3eae8;
+  text-shadow: 0 0 #300d16;
+}
 #btnComprafinal{
   background-color: #f8c9cc;
   border-radius: 5px;
   color:#300d16;
   padding: 8px;
   font-family: 'Grenze Gotisch';
+}
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  text-align: center;
+  opacity: 80%;
 }
 .mb-3{
   font-family: 'Finlandica', sans-serif;
