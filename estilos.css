@@ -91,7 +91,7 @@ ul li {
           width: 100%;
         }
       }
-p{
+#sec1 p{
   font-family: 'Finlandica', sans-serif;
   font-size: 18px;
   color: #f8c9cc;
@@ -100,17 +100,8 @@ p{
   animation: animate__fadeInLeft;
 
 }
-.contenedor-tienda{
-  padding-top: 5%;
-  display: flex;
-  height: auto;
-  justify-content: space-around;
-  background-color: hwb(11 91% 5%);
-  flex-wrap: wrap;
- 
-}
-.contenedor-tienda img {
-  width: 300px;
+.img-fluid {
+  width: 200px;
   height: 200px;
   border: #300d16;
   border-radius: 10px;
@@ -119,40 +110,52 @@ p{
   justify-content: center;
   filter: brightness(70%);
 }
-.contenedor-tienda button {
+.conteneiner button {
   background-color: #f8c9cc;
   border-radius: 5px;
   color:#300d16;
   padding: 8px;
   font-family: 'Finlandica', sans-serif;
-  font-size: 15px;
+  font-size: 12px;
   display: flex;
   justify-content:space-around;
 }
 
-.card{
+.card-body{
   width: 200px;
-  height: 350px;
+  height: 250px;
   margin: 20px 0px;
-  display: flex;
+  display: flex; 
+  flex-wrap: wrap;
+  padding-top: 5%;
+  height: auto;
+  justify-content: space-around;
+  background-color: hwb(11 91% 5%);
   justify-content: center;
   align-items: center;
   flex-direction: center;
   font-family: 'Finlandica', sans-serif;
+  color:#300d16;
 
 }
 
-h4{
+h5{
   color: #300d16;
   font-family: 'Finlandica', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
 }
-h3{
-  color: #877677;
+.card-text p{
+  color: #300d16;
   font-family: 'Finlandica', sans-serif;
   text-align: center;
-  font-size: 25px;
+  font-size: 15px;
+}
+.Swal.fire {
+  color: #300d16;
+  font-family: 'Finlandica', sans-serif;
+  text-align: center;
+  font-size: 15px;
 }
 
 #sec2{
@@ -181,7 +184,7 @@ h3{
         width: 100%;
       }
     }
-#btnCarrito{
+#botonComprar{
   background-color: #f8c9cc;
   color:#300d16;
   border-radius: 5px;
@@ -189,15 +192,8 @@ h3{
   font-family: 'Grenze Gotisch';
  
 }
-#contenedorCarrito{
-  color: #f3eae8;
-  text-shadow: 0 0 #300d16;
-}
-#producto.precio{
-  color: #f3eae8;
-  text-shadow: 0 0 #300d16;
-}
-#btnComprafinal{
+
+#botonVaciar{
   background-color: #f8c9cc;
   border-radius: 5px;
   color:#300d16;
